@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, GitBranch, Facebook, Youtube } from "lucide-react";
+import { Mail, Linkedin, GitBranch, MessageCircle, Video } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -56,10 +56,10 @@ export default function ContactSection() {
             <Linkedin size={22} />
           </a>
           <a href="https://web.facebook.com/dulnindu.saranga.7/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-blue-500 hover:-translate-y-1 transition-all">
-            <Facebook size={22} />
+            <MessageCircle size={22} />
           </a>
           <a href="https://www.youtube.com/@Dulla-i7b" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-red-500 hover:-translate-y-1 transition-all">
-            <Youtube size={24} />
+            <Video size={24} />
           </a>
         </div>
       </div>

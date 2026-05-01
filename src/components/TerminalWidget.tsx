@@ -20,7 +20,7 @@ export default function TerminalWidget() {
       output: (
         <div className="text-green-400">
           Welcome to DulninduOS v1.0.0. <br />
-          Type <span className="text-yellow-300">'help'</span> to see a list of available commands.
+          Type <span className="text-yellow-300">&apos;help&apos;</span> to see a list of available commands.
         </div>
       ),
     },
@@ -64,10 +64,10 @@ export default function TerminalWidget() {
         output = (
           <div className="text-purple-400">
             [<br />
-            &nbsp;&nbsp;"Java", "Python", "JavaScript", "TypeScript",<br />
-            &nbsp;&nbsp;"Next.js", "React Native", "TailwindCSS",<br />
-            &nbsp;&nbsp;"Spring Boot", "JAX-RS", "REST APIs",<br />
-            &nbsp;&nbsp;"IoT (C/C++)", "Firebase", "MySQL"<br />
+            &nbsp;&nbsp;&quot;Java&quot;, &quot;Python&quot;, &quot;JavaScript&quot;, &quot;TypeScript&quot;,<br />
+            &nbsp;&nbsp;&quot;Next.js&quot;, &quot;React Native&quot;, &quot;TailwindCSS&quot;,<br />
+            &nbsp;&nbsp;&quot;Spring Boot&quot;, &quot;JAX-RS&quot;, &quot;REST APIs&quot;,<br />
+            &nbsp;&nbsp;&quot;IoT (C/C++)&quot;, &quot;Firebase&quot;, &quot;MySQL&quot;<br />
             ]
           </div>
         );

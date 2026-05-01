@@ -44,7 +44,7 @@ export default function HeroSection() {
             <motion.div variants={itemVariants} className="mb-6 flex justify-center md:justify-start">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-accent/30 bg-accent/10 backdrop-blur-md text-sm text-accent font-mono shadow-[0_0_15px_rgba(59,130,246,0.2)]">
                 <Terminal size={16} className="animate-pulse" />
-                <span>System.out.println("Hello, World!");</span>
+                <span>System.out.println(&quot;Hello, World!&quot;);</span>
               </div>
             </motion.div>
 

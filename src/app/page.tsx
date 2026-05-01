@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <EducationSection />
         <ContactSection />
       </main>
+      <ChatWidget />
     </>
   );
 }

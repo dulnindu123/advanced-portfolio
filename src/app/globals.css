@@ -29,17 +29,22 @@ body {
     radial-gradient(circle at 85% 30%, rgba(147, 51, 234, 0.08), transparent 25%);
 }
 
-/* Glassmorphism utilities */
-.glass {
-  background: rgba(10, 10, 10, 0.4);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent via-purple-500 to-accent animate-[gradient_8s_linear_infinite] bg-[length:200%_auto];
+  }
+
+  .glass {
+    @apply bg-card/40 backdrop-blur-md border border-card-border/50 shadow-xl;
+  }
 }
 
-.text-gradient {
-  background: linear-gradient(to right, #3b82f6, #9333ea);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
 }

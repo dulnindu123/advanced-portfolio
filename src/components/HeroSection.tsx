@@ -77,9 +77,14 @@ export default function HeroSection() {
           <motion.div variants={itemVariants} className="md:w-1/3 flex justify-center">
              <div className="relative w-64 h-64 md:w-80 md:h-80">
                <div className="absolute inset-0 bg-accent/20 blur-3xl rounded-full"></div>
-               <img src="/images/profile.png" alt="Dulnindu Saranga" className="w-full h-full object-cover rounded-full border-4 border-card-border relative z-10 shadow-2xl shadow-accent/20" />
+               <img 
+                 src="/images/profile.png" 
+                 alt="Dulnindu Saranga" 
+                 className="w-full h-full object-cover object-top rounded-full border-4 border-card-border relative z-10 shadow-2xl shadow-accent/20" 
+               />
              </div>
           </motion.div>
+
         </div>
       </motion.div>
     </section>

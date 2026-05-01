@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, GitBranch, MessageCircle, Video } from "lucide-react";
+import { Mail, Briefcase, GitBranch, MessageCircle, Video } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -35,7 +35,7 @@ export default function ContactSection() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-8 py-4 glass border border-card-border text-primary font-bold rounded-full hover:border-accent transition-all hover:scale-105"
             >
-              <Linkedin size={20} className="text-accent" />
+              <Briefcase size={20} className="text-accent" />
               LinkedIn Profile
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function ContactSection() {
             <GitBranch size={22} />
           </a>
           <a href="https://www.linkedin.com/in/wkdsar" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent hover:-translate-y-1 transition-all">
-            <Linkedin size={22} />
+            <Briefcase size={22} />
           </a>
           <a href="https://web.facebook.com/dulnindu.saranga.7/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-blue-500 hover:-translate-y-1 transition-all">
             <MessageCircle size={22} />

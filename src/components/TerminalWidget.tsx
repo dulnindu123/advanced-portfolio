@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Terminal, X, Minus, Maximize2 } from "lucide-react";
 
 type CommandHistory = {
   command: string;
-  output: string | JSX.Element;
+  output: string | React.ReactNode;
   isError?: boolean;
 };
 
@@ -41,7 +41,7 @@ export default function TerminalWidget() {
     
     if (!trimmedCmd) return;
 
-    let output: string | JSX.Element = "";
+    let output: string | React.ReactNode = "";
     let isError = false;
 
     switch (trimmedCmd) {

@@ -19,7 +19,7 @@ export default function Navbar() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ type: "spring", stiffness: 300, damping: 30 }}
+      transition={{ type: "spring" as const, stiffness: 300, damping: 30 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "py-4 glass border-b" : "py-6 bg-transparent border-transparent"
       }`}

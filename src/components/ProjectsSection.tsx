@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import { GitBranch, ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -83,7 +83,7 @@ export default function ProjectsSection() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-secondary hover:text-white transition-colors"
                   >
-                    <Github size={20} />
+                    <GitBranch size={20} />
                     <span className="text-sm font-medium">Repository</span>
                   </a>
                   {project.featured && (

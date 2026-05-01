@@ -45,7 +45,7 @@ export default function Navbar() {
           href="mailto:dulnindusaranga@example.com"
           className="hidden md:inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-accent hover:bg-accent-hover rounded-full transition-colors shadow-[0_0_15px_rgba(59,130,246,0.3)]"
         >
-          Let's Talk
+          Let&apos;s Talk
         </a>
       </div>
     </motion.header>

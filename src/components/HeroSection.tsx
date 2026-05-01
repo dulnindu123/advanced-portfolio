@@ -46,7 +46,7 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-black tracking-tighter mb-6">
-          I'm Dulnindu <span className="text-gradient">Saranga</span>
+          I&apos;m Dulnindu <span className="text-gradient">Saranga</span>
         </motion.h1>
 
         <motion.p variants={itemVariants} className="text-lg md:text-xl text-secondary mb-10 max-w-2xl mx-auto leading-relaxed">

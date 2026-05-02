@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import GitHubCalendar from "react-github-calendar";
+import { GitHubCalendar } from "react-github-calendar";
 
 const skills = [
   "Java", "Python", "JavaScript/TypeScript", "Next.js", "React Native", 

@@ -68,7 +68,7 @@ export default function HeroSection() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/Dulnindu_Saranga_CV.pdf"
+                href="./Dulnindu_Saranga_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-2 px-8 py-3.5 glass border border-card-border hover:border-accent text-primary font-bold rounded-lg transition-all hover:scale-105"
@@ -85,7 +85,7 @@ export default function HeroSection() {
                <div className="absolute inset-0 rounded-full border-2 border-accent/50 animate-[spin_10s_linear_infinite]"></div>
                <div className="absolute inset-0 rounded-full border-2 border-dashed border-purple-500/50 animate-[spin_15s_linear_infinite_reverse]"></div>
                <img 
-                 src="/images/profile.png" 
+                 src="./images/profile.png" 
                  alt="Dulnindu Saranga" 
                  className="w-full h-full object-cover object-top rounded-full border-4 border-black relative z-10 shadow-2xl" 
                />

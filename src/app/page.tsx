@@ -4,7 +4,6 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
-import TerminalWidget from "@/components/TerminalWidget";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <EducationSection />
         <ContactSection />
       </main>
-      <TerminalWidget />
     </>
   );
 }

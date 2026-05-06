@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:scale-105 transition-transform">
-          <img src="/images/my%20logo.jpg" alt="Logo" className="w-10 h-10 rounded-full border-2 border-accent object-cover" />
+          <img src="./images/my logo.jpg" alt="Logo" className="w-10 h-10 rounded-full border-2 border-accent object-cover" />
           <span className="text-2xl font-black tracking-tighter hidden sm:block">
             DS<span className="text-accent">.</span>
           </span>

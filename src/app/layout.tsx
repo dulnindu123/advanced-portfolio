@@ -10,6 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Dulnindu Saranga | Software Engineer",
   description: "Advanced Personal Portfolio of Dulnindu Saranga - Software Engineering Undergraduate, Full-Stack Developer, and AI Enthusiast.",
+  icons: {
+    icon: "./images/my logo.jpg",
+  },
 };
 
 export default function RootLayout({

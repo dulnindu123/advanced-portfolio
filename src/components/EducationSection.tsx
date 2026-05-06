@@ -16,7 +16,7 @@ const education = [
     institution: "Primary & Secondary Education",
     period: "2010 - 2023",
     type: "school",
-    details: "G.C.E. Advanced Level (2022) & Ordinary Level (2021)."
+    details: "G.C.E. Advanced Level (2023) & Ordinary Level (2021)."
   }
 ];
 

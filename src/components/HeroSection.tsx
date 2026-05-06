@@ -68,7 +68,7 @@ export default function HeroSection() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="./Dulnindu_Saranga_CV.pdf"
+                href="./Dulnindu Saranga.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-2 px-8 py-3.5 glass border border-card-border hover:border-accent text-primary font-bold rounded-lg transition-all hover:scale-105"

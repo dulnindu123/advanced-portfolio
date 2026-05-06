@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { GitHubCalendar } from "react-github-calendar";
 
 const skills = [
-  "Java", "Python", "JavaScript/TypeScript", "Next.js", "React Native", 
-  "HTML/CSS", "Tailwind CSS", "REST APIs", "IoT", "C/C++", "Firebase", "Git"
+  "Java", "Python", "JavaScript/TypeScript", "Next.js", "WordPress", 
+  "Elementor", "HTML/CSS", "Tailwind CSS", "REST APIs", "IoT", "C/C++", "Firebase", "Git"
 ];
 
 export default function AboutSection() {

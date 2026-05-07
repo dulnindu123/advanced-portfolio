@@ -13,25 +13,74 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
-    title: "Google Data Analytics Professional Certificate",
-    organization: "Google",
-    date: "Issued Dec 2023",
-    link: "#",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_\"G\"_logo.svg"
+    title: "Canva for Work",
+    organization: "Canva",
+    date: "Issued Nov 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg"
   },
   {
-    title: "AWS Certified Cloud Practitioner",
-    organization: "Amazon Web Services",
-    date: "Issued Nov 2023",
-    link: "#",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+    title: "AI Pair Programming with GitHub Copilot",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
-    title: "Meta Front-End Developer Professional Certificate",
-    organization: "Meta",
-    date: "Issued Oct 2023",
-    link: "#",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg"
+    title: "Career Essentials in GitHub Professional Certificate",
+    organization: "GitHub",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+  },
+  {
+    title: "Practical GitHub Actions",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Practical GitHub Copilot",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Practical GitHub Project Management and Collaboration",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "ETL in Python and SQL",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Functional Programming with Python",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Hands-On Advanced Python: Data Engineering Basics",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Python in Excel: Getting Started with Data Analysis",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   }
 ];
 

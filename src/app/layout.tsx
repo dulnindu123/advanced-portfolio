@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
       <ThemeProvider>
-        <body className="min-h-screen bg-background text-foreground flex flex-col selection:bg-accent/30 selection:text-white">
+        <body className="min-h-screen bg-background text-foreground flex flex-col selection:bg-accent/30 selection:text-primary">
           {children}
         </body>
       </ThemeProvider>

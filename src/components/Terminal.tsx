@@ -60,22 +60,22 @@ export default function Terminal() {
         className="w-full max-w-3xl glass rounded-xl border border-card-border overflow-hidden shadow-2xl"
       >
         {/* Terminal Header */}
-        <div className="bg-black/40 px-4 py-3 border-b border-card-border flex items-center justify-between">
+        <div className="bg-card/30 px-4 py-3 border-b border-card-border flex items-center justify-between">
           <div className="flex items-center gap-2">
             <TerminalIcon size={16} className="text-accent" />
             <span className="text-xs font-mono text-secondary">bash — dulnindu@portfolio — 80x24</span>
           </div>
           <div className="flex gap-2">
-            <div className="w-3 h-3 rounded-full bg-yellow-500/50"></div>
-            <div className="w-3 h-3 rounded-full bg-green-500/50"></div>
-            <div className="w-3 h-3 rounded-full bg-red-500/50"></div>
+            <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
+            <div className="w-3 h-3 rounded-full bg-green-500/30"></div>
+            <div className="w-3 h-3 rounded-full bg-red-500/30"></div>
           </div>
         </div>
 
         {/* Terminal Body */}
         <div 
           ref={scrollRef}
-          className="h-80 overflow-y-auto p-6 font-mono text-sm md:text-base bg-black/60 backdrop-blur-xl"
+          className="h-80 overflow-y-auto p-6 font-mono text-sm md:text-base bg-card/10 backdrop-blur-xl"
         >
           <div className="space-y-2">
             {history.map((line, i) => (

@@ -20,9 +20,9 @@ const certifications: Certification[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
   },
   {
-    title: "AI Pair Programming with GitHub Copilot",
+    title: "ETL in Python and SQL",
     organization: "LinkedIn",
-    date: "Issued Aug 2025",
+    date: "Issued Mar 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
@@ -34,21 +34,7 @@ const certifications: Certification[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
-    title: "ETL in Python and SQL",
-    organization: "LinkedIn",
-    date: "Issued Mar 2025",
-    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-  },
-  {
     title: "Hands-On Advanced Python: Data Engineering Basics",
-    organization: "LinkedIn",
-    date: "Issued Mar 2025",
-    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-  },
-  {
-    title: "Functional Programming with Python",
     organization: "LinkedIn",
     date: "Issued Mar 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",

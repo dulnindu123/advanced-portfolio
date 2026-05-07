@@ -93,6 +93,7 @@ export default function Terminal() {
                 onChange={(e) => setInput(e.target.value)}
                 className="bg-transparent border-none outline-none text-primary w-full caret-accent"
                 spellCheck="false"
+                tabIndex={-1}
               />
             </form>
           </div>

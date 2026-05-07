@@ -41,10 +41,27 @@ export default function HeroSection() {
       >
         <div className="flex flex-col-reverse md:flex-row items-center gap-12">
           <div className="md:w-2/3">
-            <motion.div variants={itemVariants} className="mb-6 flex justify-center md:justify-start">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-accent/30 bg-accent/10 backdrop-blur-md text-sm text-accent font-mono shadow-[0_0_15px_rgba(59,130,246,0.2)]">
-                <Terminal size={16} className="animate-pulse" />
-                <span>System.out.println(&quot;Hello, World!&quot;);</span>
+            <motion.div 
+              variants={itemVariants} 
+              className="mb-8 flex justify-center md:justify-start font-mono text-sm md:text-base tracking-tight"
+            >
+              <div className="flex items-center gap-2 py-2">
+                <span className="text-accent font-bold">&gt;_</span>
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "auto" }}
+                  transition={{ duration: 2, ease: "easeInOut" }}
+                  className="overflow-hidden whitespace-nowrap border-r-2 border-accent pr-1 animate-[blink_1s_step-end_infinite]"
+                >
+                  <span className="text-blue-500">System</span>
+                  <span className="text-secondary">.</span>
+                  <span className="text-purple-500">out</span>
+                  <span className="text-secondary">.</span>
+                  <span className="text-blue-400">println</span>
+                  <span className="text-secondary">(</span>
+                  <span className="text-green-500">&quot;Hello, World!&quot;</span>
+                  <span className="text-secondary">);</span>
+                </motion.div>
               </div>
             </motion.div>
 

@@ -77,3 +77,8 @@ body {
 @keyframes shimmer {
   100% { transform: translateX(100%); }
 }
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--accent-color); }
+}

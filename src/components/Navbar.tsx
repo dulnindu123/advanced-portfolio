@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
+import ContactDropdown from "./ContactDropdown";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -47,12 +48,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <a
-            href="mailto:dulla2850@gmail.com"
-            className="hidden md:inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-accent hover:bg-accent-hover rounded-full transition-colors shadow-[0_0_15px_rgba(59,130,246,0.3)]"
-          >
-            Let&apos;s Talk
-          </a>
+          <ContactDropdown 
+            email="dulla2850@gmail.com" 
+            buttonText="Let's Talk" 
+            className="hidden md:flex !py-2 !px-5 !text-sm"
+          />
         </div>
       </div>
     </motion.header>

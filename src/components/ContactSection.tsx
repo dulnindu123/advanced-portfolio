@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, Briefcase } from "lucide-react";
+import ContactDropdown from "./ContactDropdown";
 
 export default function ContactSection() {
   return (
@@ -21,13 +22,7 @@ export default function ContactSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <a 
-              href="mailto:dulla2850@gmail.com" 
-              className="flex items-center gap-3 px-8 py-4 bg-accent text-white font-bold rounded-full hover:bg-accent-hover hover:scale-105 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)]"
-            >
-              <Mail size={20} />
-              dulla2850@gmail.com
-            </a>
+            <ContactDropdown email="dulla2850@gmail.com" />
             
             <a 
               href="https://www.linkedin.com/in/wkdsar" 

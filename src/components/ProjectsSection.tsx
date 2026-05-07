@@ -14,6 +14,7 @@ interface Project {
   description: string;
   tags: string[];
   github: string;
+  demo?: string;
   featured: boolean;
   type: "web" | "iot" | "ai" | "system";
 }
@@ -75,6 +76,14 @@ const projects: Project[] = [
     featured: false,
     type: "web",
   },
+  {
+    title: "Advanced Professional Portfolio v3",
+    description: "A high-performance, theme-aware technical portfolio featuring terminal emulation, real-time system boot animations, and interactive project auditing.",
+    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+    github: "https://github.com/dulnindu123/advanced-portfolio",
+    demo: "https://dulnindu123.github.io/advanced-portfolio/",
+    featured: true,
+    type: "web",
   }
 ];
 
@@ -121,6 +130,11 @@ export default function ProjectsSection() {
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 glass border border-card-border rounded-full text-secondary hover:text-accent hover:border-accent transition-all">
                     <GitBranch size={20} />
                   </a>
+                  {project.demo && (
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="p-2 glass border border-card-border rounded-full text-secondary hover:text-accent hover:border-accent transition-all">
+                      <Globe size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
 

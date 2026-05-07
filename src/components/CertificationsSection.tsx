@@ -14,17 +14,17 @@ interface Certification {
 const certifications: Certification[] = [
   {
     title: "Career Essentials in GitHub Professional Certificate",
-    organization: "GitHub",
+    organization: "GitHub / Microsoft",
     date: "Issued Aug 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
   },
   {
-    title: "ETL in Python and SQL",
-    organization: "LinkedIn",
-    date: "Issued Mar 2025",
+    title: "Career Essentials in Cybersecurity",
+    organization: "Microsoft",
+    date: "Issued Mar 2026",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
   },
   {
     title: "Practical GitHub Actions",
@@ -34,9 +34,30 @@ const certifications: Certification[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
+    title: "ETL in Python and SQL",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
     title: "Hands-On Advanced Python: Data Engineering Basics",
     organization: "LinkedIn",
     date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Functional Programming with Python",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "AI Pair Programming with GitHub Copilot",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   }

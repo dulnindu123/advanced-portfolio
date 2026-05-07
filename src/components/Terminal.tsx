@@ -91,7 +91,6 @@ export default function Terminal() {
                 type="text" 
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                autoFocus
                 className="bg-transparent border-none outline-none text-primary w-full caret-accent"
                 spellCheck="false"
               />

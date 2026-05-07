@@ -15,18 +15,18 @@
 }
 
 :root {
-  /* Soft & Professional Light Mode - Gentle on eyes */
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --primary: #0f172a;
-  --secondary: #475569;
+  /* Ultra-Soft & Eye-Friendly Light Mode */
+  --background: #f1f5f9;
+  --foreground: #1e293b;
+  --primary: #1e293b;
+  --secondary: #64748b;
   --accent-color: #2563eb;
   --accent-hover: #1d4ed8;
   --card-bg: #ffffff;
-  --card-border: rgba(0, 0, 0, 0.05);
+  --card-border: rgba(0, 0, 0, 0.04);
   
-  --ambient-1: rgba(37, 99, 235, 0.02);
-  --ambient-2: rgba(147, 51, 234, 0.02);
+  --ambient-1: transparent;
+  --ambient-2: transparent;
   --glass-bg: rgba(255, 255, 255, 0.7);
 }
 

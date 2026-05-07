@@ -75,13 +75,6 @@ const projects: Project[] = [
     featured: false,
     type: "web",
   },
-  {
-    title: "Legacy Portfolio (v2)",
-    description: "A modern, responsive personal portfolio built with HTML5 and Tailwind CSS.",
-    tags: ["HTML", "Tailwind", "Responsive"],
-    github: "https://github.com/dulnindu123/personal-portfolio-website",
-    featured: false,
-    type: "web",
   }
 ];
 

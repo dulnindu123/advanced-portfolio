@@ -87,7 +87,7 @@ export default function HeroSection() {
                <img 
                  src="./images/profile.png" 
                  alt="Dulnindu Saranga" 
-                 className="w-full h-full object-cover object-top rounded-full border-4 border-black relative z-10 shadow-2xl" 
+                 className="w-full h-full object-cover object-top rounded-full border-4 border-background relative z-10 shadow-2xl" 
                />
              </div>
           </motion.div>

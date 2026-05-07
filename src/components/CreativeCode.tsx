@@ -61,7 +61,7 @@ export default function CreativeCode() {
       </AnimatePresence>
       <motion.span
         animate={{ opacity: [0, 1, 0] }}
-        transition={{ duration: 0.8, repeat: Infinity, ease: "steps(2)" }}
+        transition={{ duration: 0.8, repeat: Infinity, ease: "linear" }}
         className="w-2 h-5 bg-accent inline-block ml-1"
       />
     </div>

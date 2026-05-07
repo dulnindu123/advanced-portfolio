@@ -125,7 +125,7 @@ export default function ProjectsSection() {
                   {getIcon(project.type)}
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 glass border border-card-border rounded-full text-secondary hover:text-white hover:border-accent transition-all">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 glass border border-card-border rounded-full text-secondary hover:text-accent hover:border-accent transition-all">
                     <GitBranch size={20} />
                   </a>
                 </div>

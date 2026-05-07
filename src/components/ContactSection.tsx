@@ -22,7 +22,7 @@ export default function ContactSection() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <ContactDropdown email="dulla2850@gmail.com" />
+            <ContactDropdown email="dulla2850@gmail.com" direction="up" />
             
             <a 
               href="https://www.linkedin.com/in/wkdsar" 

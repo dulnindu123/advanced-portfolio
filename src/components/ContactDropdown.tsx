@@ -9,9 +9,16 @@ interface ContactDropdownProps {
   className?: string;
   buttonText?: string;
   variant?: "primary" | "glass";
+  direction?: "up" | "down";
 }
 
-export default function ContactDropdown({ email, className, buttonText, variant = "primary" }: ContactDropdownProps) {
+export default function ContactDropdown({ 
+  email, 
+  className, 
+  buttonText, 
+  variant = "primary",
+  direction = "down" 
+}: ContactDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -57,6 +64,10 @@ export default function ContactDropdown({ email, className, buttonText, variant 
     ? "bg-accent text-white shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:bg-accent-hover" 
     : "glass border border-card-border text-primary hover:border-accent";
 
+  const dropdownPosition = direction === "up" 
+    ? "bottom-full mb-4" 
+    : "top-full mt-4";
+
   return (
     <div className="relative inline-block" ref={dropdownRef}>
       <button
@@ -70,10 +81,10 @@ export default function ContactDropdown({ email, className, buttonText, variant 
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, y: 10, scale: 0.95 }}
+            initial={{ opacity: 0, y: direction === "up" ? 10 : -10, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 10, scale: 0.95 }}
-            className="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-64 glass p-2 rounded-2xl border border-card-border shadow-2xl z-[60]"
+            exit={{ opacity: 0, y: direction === "up" ? 10 : -10, scale: 0.95 }}
+            className={`absolute ${dropdownPosition} left-1/2 -translate-x-1/2 w-64 glass p-2 rounded-2xl border border-card-border shadow-2xl z-[100]`}
           >
             <div className="flex flex-col gap-1">
               {options.map((opt, i) => (

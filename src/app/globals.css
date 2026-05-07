@@ -15,19 +15,19 @@
 }
 
 :root {
-  /* Ultra-Soft & Eye-Friendly Light Mode */
-  --background: #f1f5f9;
+  /* "Dim Mode" - The Perfect Middle Ground */
+  --background: #e2e8f0;
   --foreground: #1e293b;
   --primary: #1e293b;
-  --secondary: #64748b;
+  --secondary: #475569;
   --accent-color: #2563eb;
   --accent-hover: #1d4ed8;
-  --card-bg: #ffffff;
-  --card-border: rgba(0, 0, 0, 0.04);
+  --card-bg: #f1f5f9;
+  --card-border: rgba(0, 0, 0, 0.05);
   
   --ambient-1: transparent;
   --ambient-2: transparent;
-  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg: rgba(255, 255, 255, 0.4);
 }
 
 .dark {

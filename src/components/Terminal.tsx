@@ -41,7 +41,7 @@ export default function Terminal() {
       newHistory.push({ type: "output", content: COMMANDS[cmd as keyof typeof COMMANDS] });
       setHistory(newHistory);
       if (cmd === "resume") {
-        window.open("./Dulnindu Saranga.pdf", "_blank");
+        window.open("./cv.pdf", "_blank");
       }
     } else {
       newHistory.push({ type: "output", content: `Command not found: ${cmd}. Type 'help' for assistance.` });

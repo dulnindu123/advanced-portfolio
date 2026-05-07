@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import CreativeCode from "./CreativeCode";
 
 export default function HeroSection() {
   const containerVariants = {
@@ -43,26 +44,9 @@ export default function HeroSection() {
           <div className="md:w-2/3">
             <motion.div 
               variants={itemVariants} 
-              className="mb-8 flex justify-center md:justify-start font-mono text-sm md:text-base tracking-tight"
+              className="mb-8 flex justify-center md:justify-start"
             >
-              <div className="flex items-center gap-2 py-2">
-                <span className="text-accent font-bold">&gt;_</span>
-                <motion.div
-                  initial={{ width: 0 }}
-                  animate={{ width: "auto" }}
-                  transition={{ duration: 2, ease: "easeInOut" }}
-                  className="overflow-hidden whitespace-nowrap border-r-2 border-accent pr-1 animate-[blink_1s_step-end_infinite]"
-                >
-                  <span className="text-blue-500">System</span>
-                  <span className="text-secondary">.</span>
-                  <span className="text-purple-500">out</span>
-                  <span className="text-secondary">.</span>
-                  <span className="text-blue-400">println</span>
-                  <span className="text-secondary">(</span>
-                  <span className="text-green-500">&quot;Hello, World!&quot;</span>
-                  <span className="text-secondary">);</span>
-                </motion.div>
-              </div>
+              <CreativeCode />
             </motion.div>
 
             <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-black tracking-tighter mb-6 relative">

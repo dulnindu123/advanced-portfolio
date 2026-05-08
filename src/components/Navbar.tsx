@@ -44,6 +44,9 @@ export default function Navbar() {
           <Link href="#education" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Education
           </Link>
+          <Link href="#certifications" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Certifications
+          </Link>
         </nav>
 
         <div className="flex items-center gap-4">

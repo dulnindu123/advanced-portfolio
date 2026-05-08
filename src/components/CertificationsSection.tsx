@@ -13,21 +13,42 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
+    title: "Canva for Work",
+    organization: "Canva",
+    date: "Issued Nov 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg"
+  },
+  {
+    title: "AI Pair Programming with GitHub Copilot",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
     title: "Career Essentials in GitHub Professional Certificate",
-    organization: "GitHub / Microsoft",
+    organization: "GitHub",
     date: "Issued Aug 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
   },
   {
-    title: "Career Essentials in Cybersecurity",
-    organization: "Microsoft",
-    date: "Issued Mar 2026",
+    title: "Practical GitHub Actions",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
-    title: "Practical GitHub Actions",
+    title: "Practical GitHub Copilot",
+    organization: "LinkedIn",
+    date: "Issued Aug 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Practical GitHub Project Management and Collaboration",
     organization: "LinkedIn",
     date: "Issued Aug 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
@@ -41,13 +62,6 @@ const certifications: Certification[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
-    title: "Hands-On Advanced Python: Data Engineering Basics",
-    organization: "LinkedIn",
-    date: "Issued Mar 2025",
-    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-  },
-  {
     title: "Functional Programming with Python",
     organization: "LinkedIn",
     date: "Issued Mar 2025",
@@ -55,9 +69,16 @@ const certifications: Certification[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   },
   {
-    title: "AI Pair Programming with GitHub Copilot",
+    title: "Hands-On Advanced Python: Data Engineering Basics",
     organization: "LinkedIn",
-    date: "Issued Aug 2025",
+    date: "Issued Mar 2025",
+    link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+  },
+  {
+    title: "Python in Excel: Getting Started with Data Analysis",
+    organization: "LinkedIn",
+    date: "Issued Mar 2025",
     link: "https://www.linkedin.com/in/wkdsar/details/certifications/",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
   }

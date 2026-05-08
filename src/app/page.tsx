@@ -5,7 +5,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import SkillsSection from "@/components/SkillsSection";
-import ReviewsSection from "@/components/ReviewsSection";
+import ReviewWall from "@/components/ReviewWall";
 import Terminal from "@/components/Terminal";
 import ContactSection from "@/components/ContactSection";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <CertificationsSection />
         <SkillsSection />
         <EducationSection />
-        <ReviewsSection />
+        <ReviewWall />
         <Terminal />
         <ContactSection />
       </main>

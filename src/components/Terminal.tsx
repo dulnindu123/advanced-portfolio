@@ -9,7 +9,7 @@ const COMMANDS = {
   bio: "Dulnindu Saranga - Software Engineering Undergraduate. Passionate about AI, IoT, and Full-stack Web Development.",
   skills: "Languages: Java, Python, JS/TS, C/C++\nWeb: Next.js, React, WordPress, Elementor, Tailwind\nIoT: Arduino, Sensors, REST APIs",
   contact: "Email: dulla2850@gmail.com\nLinkedIn: linkedin.com/in/wkdsar\nGitHub: github.com/dulnindu123",
-  projects: "1. HelaDry IoT Dehydrator\n2. Smart Campus REST API\n3. BodySync AI\n4. Task Manager System",
+  projects: "1. HelaDry IoT Dehydrator\n2. Smart Campus REST API\n3. Task Manager System",
   resume: "Redirecting to CV download...",
   clear: "CLEAR",
 };

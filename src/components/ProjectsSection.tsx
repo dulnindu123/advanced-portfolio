@@ -55,8 +55,8 @@ const projects: Project[] = [
   },
   {
     title: "Student Registry CLI",
-    description: "A robust CLI application for student registry management with persistent storage.",
-    tags: ["Python", "CLI", "File I/O"],
+    description: "A fully refactored, robust CLI application for student registry management featuring JSON persistent storage and automated attendance tracking.",
+    tags: ["Python", "JSON", "CLI", "File I/O"],
     github: "https://github.com/dulnindu123/Python-Student-Registry-cli",
     featured: false,
     type: "system",

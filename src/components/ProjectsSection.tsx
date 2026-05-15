@@ -36,14 +36,7 @@ const projects: Project[] = [
     featured: true,
     type: "iot",
   },
-  {
-    title: "BodySync AI",
-    description: "Engineered a comprehensive health tracking mobile app utilizing Gemini AI analysis.",
-    tags: ["React Native", "AI", "Gemini", "Expo"],
-    github: "https://github.com/dulnindu123/BodySyncAI",
-    featured: false,
-    type: "ai",
-  },
+
   {
     title: "Task Manager System",
     description: "A multi-stage task manager evolving from CLI to a full Tkinter GUI with JSON storage.",

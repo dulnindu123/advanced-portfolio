@@ -34,10 +34,10 @@ const skillCategories = [
     title: "Tools & Infrastructure",
     icon: <Cpu className="text-accent" />,
     skills: [
-      { name: "Git / GitHub", percentage: 96, color: "from-slate-700 to-slate-900" },
+      { name: "Git / GitHub", percentage: 96, color: "from-orange-500 to-red-500" },
       { name: "Docker", percentage: 70, color: "from-blue-600 to-blue-400" },
       { name: "Firebase", percentage: 85, color: "from-amber-400 to-orange-500" },
-      { name: "Linux CLI", percentage: 88, color: "from-gray-600 to-gray-800" }
+      { name: "Linux CLI", percentage: 88, color: "from-zinc-300 to-zinc-100" }
     ]
   }
 ];

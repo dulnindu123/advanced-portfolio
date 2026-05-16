@@ -5,7 +5,7 @@ import { MessageSquareQuote, Heart } from "lucide-react";
 
 export default function ReviewWall() {
   // Use your real Cusdis App ID here
-  const APP_ID = "YOUR_CUSDIS_APP_ID_HERE";
+  const APP_ID = "c0bcec9d-81a5-4c0f-a7d6-9e7ee39ce718";
 
   useEffect(() => {
     // Dynamically load Cusdis script for performance

@@ -62,11 +62,12 @@ const projects: Project[] = [
     type: "system",
   },
   {
-    title: "Life on Land Awareness",
-    description: "A responsive web project dedicated to UN Sustainable Development Goal 15.",
-    tags: ["HTML", "CSS", "UI/UX"],
+    title: "Life on Land | Premium Eco-Platform",
+    description: "A professional-grade educational platform featuring a synchronized glass-morphic design system, photographic conservation tracking, and deep-dive scientific resource integration.",
+    tags: ["HTML5", "CSS3", "Glass-morphism", "UI/UX", "Responsive"],
     github: "https://github.com/dulnindu123/life-on-land-website",
-    featured: false,
+    demo: "https://dulnindu123.github.io/life-on-land-website/",
+    featured: true,
     type: "web",
   },
   {

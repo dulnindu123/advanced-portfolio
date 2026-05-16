@@ -30,9 +30,10 @@ const projects: Project[] = [
   },
   {
     title: "HelaDry IoT Dehydrator",
-    description: "Led the hardware-software integration for an IoT-based solar agricultural dehydrator.",
+    description: "Led the hardware-software integration for an IoT-based solar agricultural dehydrator. Featured a custom web interface for real-time telemetry and dehydration control.",
     tags: ["IoT", "C/C++", "Firebase", "Dart"],
     github: "https://github.com/dulnindu123/SDGP-HelaDry-CS154",
+    demo: "https://heladry.com.lk/",
     featured: true,
     type: "iot",
   },
